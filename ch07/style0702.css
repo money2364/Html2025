@@ -1,0 +1,10 @@
+.container { width: 500px; border: 1px solid black;
+}
+h1 {background-color: black;
+color: white; text-align: center;}
+.book1 {
+    list-style: url(dot.png);
+}
+.book2 {
+    list-style-position: inside;
+}

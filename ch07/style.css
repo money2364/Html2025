@@ -1,0 +1,18 @@
+.nanum-pen-script-regular {
+    font-family: "Nanum Pen Script", 
+    cursive;
+    font-weight: 400;
+    font-style:italic;
+    color: black;
+      }
+      .small-line {line-height: 0.7;}
+      .big-line { line-height: 2.5;}
+  .container {
+   width: 600px; border: 1px solid black;
+  }
+  h1 {
+      text-align: center;
+  }
+  a {
+    text-decoration: none;
+  }
