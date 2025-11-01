@@ -1,0 +1,33 @@
+.container {
+    float: left;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    border: 1px solid black;
+    flex-flow: row wrap;
+}
+
+.box {
+    margin: 5px;
+    padding: 10px;
+    width: 80px;
+}
+
+.box:nth-child(1) { height: 50px;}
+.box:nth-child(2) { height: 150px;}
+
+.box:nth-child(odd) {
+    background-color: aqua;
+}
+.box:nth-child(even) {
+    background-color: pink;
+}
+#opt1 {
+    align-content: center;
+}
+#box1 {
+    align-self: flex-end;
+}
+#box3 {
+    align-self: stretch;
+}
